@@ -7,3 +7,5 @@ Version: 1.0
 Author: HataStyle
 */
 
+if ( ! defined('ABSPATH'))
+	exit();
