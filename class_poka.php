@@ -16,4 +16,12 @@ class poka {
 	function set( $poka ){
 		$this->poka = $poka;
 	}
+
+	function double (){
+		$this->poka *= 2;
+	}
+
+	function triple (){
+		$this->poka *= 3;
+	}
 }

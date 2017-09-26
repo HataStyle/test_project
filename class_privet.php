@@ -15,4 +15,8 @@ class privet {
 	function set( $privet ){
 		$this->privet = $privet;
 	}
+
+	function  show(){
+		echo "Privet ".$this->privet;
+	}
 }
