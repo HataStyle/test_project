@@ -19,4 +19,15 @@ class privet {
 	function  show(){
 		echo "Privet ".$this->privet;
 	}
+	function choose( $flag ){
+		if ( $flag ){
+			$this->privet = 5;
+		}else{
+			$this->privet = 0;
+		}
+
+	}
+	function  prosto(){
+
+	}
 }

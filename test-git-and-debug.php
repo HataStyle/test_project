@@ -9,3 +9,9 @@ Author: HataStyle
 
 if ( ! defined('ABSPATH'))
 	exit();
+
+include ('class_privet.php');
+
+$privet = new privet();
+$privet->set( 5 );
+$privet->choose( 10 );
